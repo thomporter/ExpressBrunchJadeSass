@@ -1,0 +1,49 @@
+extends layout
+
+include mixins/packages
+
+block head
+	link(rel='stylesheet', href='stylesheets/app.css')
+	//if IE 7
+		link(rel='stylesheet', href='stylesheets/font-awesome-ie7.min.css')
+		script(src='javascripts/head.js')
+
+block content
+	.container
+		.navbar.navbar-inverse(role="navigation")
+			.navbar-header
+				button.navbar-toggle(type="button", data-toggle="collapse", data-target="#navbar-collapse")
+					span.sr-only Toggle Navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href="https://github.com/thomporter/ExpressBrunchJadeSass", target="_blank") Express Brunch with Jade & Sass
+			.collapse.navbar-collapse#navbar-collapse
+				ul.nav.navbar-nav
+					li: a(href="http://expressjs.com/", target="_blank") Express
+					li: a(href="http://brunch.io", target="_blank") Brunch
+					li: a(href="http://jade-lang.com/", target="_blank") Jade
+					li: a(href="http://sass-lang.com/", target="_blank") Sass
+				#LoginView
+		.row
+			.col-md-12
+				.jumbotron
+					h1= title
+						small  v#{version}
+					p Welcome to #{title} Brunch with Jade &amp; Sass
+					p: small <i class="icon-thumbs-up"></i> Based on 
+						a(href="https://github.com/jerfowler/ExpressBrunchJade", target="_blank") Brunch with Express and Jade
+					p: a(class="btn btn-primary btn-large", href="https://github.com/thomporter/ExpressBrunchJadeSass", target="_blank") Learn more
+		- while (packages.length>0) {
+			mixin packages(packages.splice(0, 3))
+		- }
+		hr
+		footer
+			p © Company 2013
+
+	#AppView
+
+block scripts
+	script(src='/socket.io/socket.io.js')
+	script(src='javascripts/vendor.js')
+	script(src='javascripts/app.js', defer, onload="require('initialize');")

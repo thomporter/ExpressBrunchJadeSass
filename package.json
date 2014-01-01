@@ -1,0 +1,44 @@
+{
+  "author": "Thom Porter",
+  "name": "express-with-brunch-jade-and-sass",
+  "description": "Package description",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9 || 0.10"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": "> 1.0 < 1.5",
+    "coffee-script-brunch": "> 1.0 < 1.5",
+    "css-brunch": "> 1.0 < 1.5",
+    "sass-brunch": "1.7.2",
+    "jade-brunch": "> 1.0 < 1.5",
+    "clean-css-brunch": "> 1.0 < 1.5",
+    "coffeelint-brunch": "> 1.0 < 1.5",
+    "ugly-blanket-brunch": "~1.5.3",
+    "async": "*",
+    "socket.io": "*",
+    "express": "*",
+    "jade": "~0.28.2",
+    "debug": "~0.7.2",
+    "ansi-color": "*",
+    "date-utils": "*",
+    "growl": "*",
+    "cordell": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*",
+    "sinon-chai": "*",
+    "supertest": "*",
+    "blanket": "*"
+  }
+}

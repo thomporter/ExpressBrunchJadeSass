@@ -1,0 +1,22 @@
+body {
+  background-image: url("../images/hipsters.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.packages {
+  margin-bottom: 15px; }
+  .packages .span4 {
+    padding-bottom: 20px; }
+
+.package {
+  background: rgba(238, 238, 238, 0.4);
+  color: black;
+  padding: 5px 10px; }
+  .package a {
+    color: #0044cc; }
+  .package h2 {
+    color: #0044cc; }
+    .package h2 small {
+      color: #323232; }

@@ -1,0 +1,43 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# Brunch folder for temporary files.
+tmp/
+public/
+
+
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
+
+# OS or Editor folders
+._*
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# Folders to ignore
+node_modules
+bower_components
+
