@@ -55,15 +55,15 @@ The server walk and watch functionality has been made into its own module called
 ## Languages
 
 - [CoffeeScript](http://coffeescript.org/)
-- [Stylus](http://learnboost.github.com/stylus/)
+- [Sass](http://sass-lang.com/)
 - [Jade](http://jade-lang.com/)
 
 ## Features
 - [Express v3.2.0](http://expressjs.com)
 - [Jade-Brunch 1.5.0](https://github.com/brunch/jade-brunch)
 - [HTML5 Boilerplate v4.1.0](https://github.com/h5bp/html5-boilerplate)
-- [Twitter Bootstrap v2.3.1](http://twitter.github.com/bootstrap)
-- [Font Awesome v3.0.2](https://github.com/FortAwesome/Font-Awesome)
+- [Twitter Bootstrap v3.0.3](http://twitter.github.com/bootstrap)
+- [Font Awesome v4.0.3](https://github.com/FortAwesome/Font-Awesome)
 - [Backbone v1.0.0](http://backbonejs.org)
 - [Underscore 1.4.4](http://underscorejs.org)
 - [jQuery v1.9.1](http://jquery.com)
