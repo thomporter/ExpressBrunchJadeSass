@@ -43,7 +43,7 @@ exports.config =
                 before: [
                     'vendor/styles/normalize-1.1.0.css'
                     'vendor/styles/h5bp-base-4.1.0.css'
-                    'vendor/styles/bootstrap-2.3.1.css'
+                    'vendor/styles/bootstrap-3.0.3.css'
                 ]
                 after: [
                     'vendor/styles/h5bp-helpers-4.1.0.css'
